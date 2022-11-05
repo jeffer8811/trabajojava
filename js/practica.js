@@ -1,0 +1,5 @@
+var nombre = prompt ("Escribe tu nombre: ")
+var apellido = prompt("Escriba tu Apellido: ")
+var DNI = prompt("Escriba tu DNI")
+var peso = parseInt(prompt ("Escribe tu peso: "))
+document.write (`'Hola ${nombre},${apellido},tu DNI ${DNI} tu peso ${peso} subiras 5k mas en este mes si comes chatara ${peso+5} peso'`)
